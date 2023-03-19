@@ -104,8 +104,8 @@ app.get('/account/all', function (req, res) {
     });
 });
 
-if(process.env.NODE_ENV === 'production'){
-    app.use(express.static('public'));
+if(process.env.NODE_ENV !== 'production'){
+    require('dotenv').config();
 }
 
 var port = process.env.PORT || 3000;
