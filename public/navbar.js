@@ -44,7 +44,7 @@ function NavBar(){
         </ul>
       </div>
       <div className = 'float-end'>
-        <span className = 'fw bold mt-1 text-black' id = 'loggedInStatus'>No User Logged In</span>
+        <span className = 'fw bold mt-1 text-black' id = 'loggedInStatus'>No user is logged in</span>
       </div>
       </div>
     </nav>
