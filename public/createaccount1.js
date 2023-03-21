@@ -63,7 +63,8 @@ function CreateForm(props) {
       var errorCode = error.code;
       var errorMessage = error.message;
       setError(...errorCode, ...errorMessage)
-      alert(error);   
+      alert(errorMessage);   
+      console.log(error);
     };
     
   
