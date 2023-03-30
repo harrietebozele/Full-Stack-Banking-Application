@@ -107,7 +107,7 @@ function LoginForm(props) {
       id="loginButton" 
       onClick={handleEmailAndPassword} disabled={email && password===''}>Login With Email</button>
 
-    <h5 className="mt-3">OR Login with your Google Account</h5>
+    <h5 className="mt-3">Login with your Google Account</h5>
 
     <button 
       className="btn btn-primary mt-3"
